@@ -2,14 +2,65 @@ main{
     line-height: 2.88rem;
 }
 
-p{
+nav{
+    background: lightskyblue;
+}
+
+h2{
+    margin-top: 1em;
+    background: lightsteelblue;
+}
+.my-name img{
+    border-radius: 100%;
+}
+
+.title{
+    font-size: .8em;
+    color: grey;
+}
+
+ul{
+    position: sticky;
+    top: 0;  
+    font-size: 1.7em;
+
+}
+
+article{
+    background: rgb(245, 244, 244);
     font-size: 1.7rem;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 2%;
+    
 }
 
 .coding-image{
     padding: 7em 0;
     background-image: url(../img/coding.jpg);
-    background-size: auto;
-    border-color: gray;
+    height: 450px;    
     color: white;
+}
+
+img{
+    border: ridge;
+    border-color: cornflowerblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;      
+}
+
+@media screen and (max-width: 768px) {
+*{
+    font-size: .6em;
+}
+
+nav{
+    display: none;
+}
+
 }
