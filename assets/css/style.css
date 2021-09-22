@@ -10,6 +10,8 @@ h2{
     margin-top: 1em;
     background: lightsteelblue;
 }
+
+/* make my photo completely rounded */
 .my-name img{
     border-radius: 100%;
 }
@@ -37,7 +39,7 @@ article{
     border-radius: 2%;
     
 }
-
+/* coding image background */
 .coding-image{
     padding: 7em 0;
     background-image: url(../img/coding.jpg);
@@ -45,6 +47,12 @@ article{
     color: white;
 }
 
+span{
+    background: lightsteelblue;
+    color: black;    
+}
+
+/* formating for all project images */
 img{
     border: ridge;
     border-color: cornflowerblue;
@@ -54,6 +62,7 @@ img{
     width: 80%;      
 }
 
+/* Remove nav side bar and shrink text on smaller devices */
 @media screen and (max-width: 768px) {
 *{
     font-size: .6em;
