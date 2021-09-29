@@ -6,6 +6,13 @@ nav{
     background: lightskyblue;
 }
 
+.coding-image{
+    padding: 7em 0;
+    background-image: url(../img/coding.jpg);
+    height: 450px;    
+    color: white;
+}
+
 h2{
     margin-top: 1em;
     background: lightsteelblue;
@@ -40,12 +47,8 @@ article{
     
 }
 /* coding image background */
-.coding-image{
-    padding: 7em 0;
-    background-image: url(../img/coding.jpg);
-    height: 450px;    
-    color: white;
-}
+
+
 
 span{
     background: lightsteelblue;
@@ -70,6 +73,12 @@ img{
 
 nav{
     display: none;
+}
+.coding-image{
+    padding: 7em 0;
+    background-image: url(../img/coding.jpg);
+    height: 150px;    
+    color: white;
 }
 article{
     margin-top: 0em;
