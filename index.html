@@ -18,12 +18,13 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 <body>
     <div class="container-fluid">
         <div class="row m-0 p-0 w-100">
-            <nav class="col-sm-2 text-center">
+            <nav class="col-sm-2 text-center" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <ul>
                     <li class="my-name">
                         <img src="./assets/img/shawn.jpg">
@@ -41,7 +42,7 @@
                         <a href="#contact-me">Contact Me</a>
                     </li>
                     <li>
-                        <a href="./assets/files/Miller,Shawn Resume.pdf" target="_blank">Resume</a>
+                        <a href="./assets/files/Miller,Shawn-Resume.pdf" target="_blank">Resume</a>
                     </li>
                 
                 </ul>
@@ -49,22 +50,22 @@
             <main class="col-sm-12 col-md-10 mborder">
 
                 <header class="coding-image">
-                    <h1 class="text-center"><span> I COMMIT myself to PUSH a company further </span></h1>
+                    <h1 class="text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"><span>💻 I COMMIT myself to PUSH a company further 💻</span></h1>
                     
                     
                 </header>
                 
-                <section id="about-me">
+                <section id="about-me" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                     <h2 class="text-center p-2 border">About Me</h2>                
-                    <article class="border">
-                    <p>I am currently enrolled in an Ohio State University coding boot camp while I hold a day job as a Senior Technical Manager at Chuck E. Cheese.  I troubleshoot and repair arcade machine, an animatronic show and many other restaurant equipment. I joined the bootcamp to move my education from computer hardware to software. I love learning new things and cannot wait to join a company and use all my background to develope new and exciting web pages. </p>
+                    <article class="border" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                    <p>I am currently enrolled in an Ohio State University coding boot camp while I hold a day job as a Senior Technical Manager at Chuck E. Cheese.  I troubleshoot and repair the latest arcade machines, an animatronic show and many other restaurant equipment. I joined the bootcamp to move my education from computer hardware to software. I love learning new things and cannot wait to join a company and use all my background to develope new and exciting web pages. </p>
                     </article>
                 </section>
 
-                <section id="class-projects">
+                <section id="class-projects" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                     
                     <h2 class="text-center p-2 border">Class Projects</h2>            
-                    <article id="passwordGenerator" class="border">
+                    <!-- <article id="passwordGenerator" class="border">
                         <h3 class="text-center p-2">Password Generator</h3>                
                         <a href="https://shawn52409.github.io/Password-generator/" target="_blank"><img src="assets/img/password-generator-screenshot.jpg"></a>                
                         <a href="https://github.com/Shawn52409/Password-generator" target="_blank"><br>Password Generator Repo Link</a>
@@ -79,9 +80,29 @@
                             - Use of special characters?<br>
                             - Use of numbers?
                         </p>
+                    </article> -->
+
+                    <article id="project1" class="border" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                        <h3 class="text-center p-2">Music Review Club<br>(Group Project)</h3>                
+                        <a href="https://music-review-club.herokuapp.com/" target="_blank"><img src="assets/img/homepage.jpg"></a>                
+                        <a href="https://github.com/lydiawdesign/music-review-club" target="_blank"><br>Health and Wellness Repo Link</a>
+                        <div class="border"></div>
+
+                        <p> A website that specializes in building a music loving community. Community members are able to post new song reviews (including song title, artist name, genre, youtube URL, and review). Users are also able to view other users reviews on the feed. All users are able to interact with music reviews once logged in.
+                        </p>
                     </article>
 
-                    <article id="weatherDashboard" class="border">
+                    <article id="project1" class="border" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                        <h3 class="text-center p-2">Health and Wellness Planner<br>(Group Project)</h3>                
+                        <a href="https://haleywitherell.github.io/Health-Wellness/" target="_blank"><img src="assets/img/health-wellness-screenshot.jpg"></a>                
+                        <a href="https://github.com/haleywitherell/Health-Wellness" target="_blank"><br>Health and Wellness Repo Link</a>
+                        <div class="border"></div>
+
+                        <p>This website was made to give a user a way to search through foods to create a menu for dinner for one calendar week.  A user will search for any type of food and see 4 results.  Each result will show a photo and text decription of each food product.  The search results will also contain a selector box with a drop down menu for each day of the week.  The user can add a food to a particular day by using the drop down menu.  If a user wants more search results they may enter a new search or click on the "Next Results" button for four more results. A user can had exercises to each day of the week.  A user does this by clicking the "Choose a Workout" button.  This button will display four random exercise results.  Just like the food results a user can add exercises to each day of the week by using the drop down menu selector included with each exercise result.  Any time during the selection process a user can click on the save button on the bottom of a particular day to save their selections to local storage for that day.  A button has also been included to clear the day of all food and exercises and delete that information from local storage.  When you user refreshes the page the items saved to local storage will populate to their correct day.
+                        </p>
+                    </article>
+
+                    <article id="weatherDashboard" class="border" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                         <h3 class="text-center p-2">Weather Dashboard</h3>                
                         <a href="https://shawn52409.github.io/Weather-Dashboard/" target="_blank"><img src="assets/img/weather-dashboard-screenshot.jpg"></a>                
                         <a href="https://github.com/Shawn52409/Weather-Dashboard" target="_blank"><br>Weather Dashboard Repo Link</a>
@@ -91,7 +112,7 @@
                         </p>
                     </article>
 
-                    <article id="codingQuiz" class="border">
+                    <article id="codingQuiz" class="border" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                         <h3 class="text-center p-2">Coding Quiz</h3>                
                         <a href="https://shawn52409.github.io/Code-Quiz/" target="_blank"><img src="assets/img/coding-quiz-screenshot.jpg"></a>                
                         <a href="https://github.com/Shawn52409/Code-Quiz.git" target="_blank"><br>Coding Quiz Repo Link</a>
@@ -99,23 +120,14 @@
 
                         <p>This website was made create a quiz for a user to take. The user will have sixty seconds to complete ten questions. If a user finishes the questions or time runs out the website will ask the user for their initials and show their result of the quiz. As a user answers the questions the website will display if the answers are correct or incorrect. If an answer is incorrect the user will lose ten seconds from the timer. The users initials will be saved with their score to the local drive. A user can view the high scores from a menu on the left side of the screen.
                         </p>
-                    </article>
+                    </article>                   
 
-                    
-                    <article id="project1" class="border">
-                        <h3 class="text-center p-2">Health and Wellness Planner<br>(Group Project))</h3>                
-                        <a href="https://haleywitherell.github.io/Health-Wellness/" target="_blank"><img src="assets/img/health-wellness-screenshot.jpg"></a>                
-                        <a href="https://github.com/haleywitherell/Health-Wellness" target="_blank"><br>Health and Wellness Repo Link</a>
-                        <div class="border"></div>
 
-                        <p>This website was made to give a user a way to search through foods to create a menu for dinner for one calendar week.  A user will search for any type of food and see 4 results.  Each result will show a photo and text decription of each food product.  The search results will also contain a selector box with a drop down menu for each day of the week.  The user can add a food to a particular day by using the drop down menu.  If a user wants more search results they may enter a new search or click on the "Next Results" button for four more results. A user can had exercises to each day of the week.  A user does this by clicking the "Choose a Workout" button.  This button will display four random exercise results.  Just like the food results a user can add exercises to each day of the week by using the drop down menu selector included with each exercise result.  Any time during the selection process a user can click on the save button on the bottom of a particular day to save their selections to local storage for that day.  A button has also been included to clear the day of all food and exercises and delete that information from local storage.  When you user refreshes the page the items saved to local storage will populate to their correct day.
-                        </p>
-                    </article>            
                 </section>
 
-                <section id="contact-me">
+                <section id="contact-me" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                     <h2 class="text-center p-2 border">Contact Information</h2>  
-                    <article id="contact-me" class="border">                            
+                    <article id="contact-me" class="border" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">                            
                         <i class="fas fa-envelope-square"></i><a href="mailto:shawnsmm@gmail.com"> shawnsmm@gmail.com<br></a>
                         <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/shawn-miller-b44a36217" target="_blank"> www.linkedin.com/in/shawn-miller-b44a36217<br></a>
                         <i class="fab fa-github"></i><a href="https://github.com/Shawn52409" target="_blank"> github.com/Shawn52409</a>
@@ -125,5 +137,12 @@
             </main>
         </div>
     </div>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
