@@ -6,6 +6,7 @@ Created by Shawn Miller
 - CSS
 - Bootstrap
 - Font Awesome
+- AOS
 
 # Description
 This website was made to show off my accomplishments as a web developer.  On this site you will find projects that I have worked on (includeing a group project) with links to those projects. You will also fine my contact information which includes a link to my email, LinkIn profile, Github repo and a pdf of my resume.

@@ -2,6 +2,11 @@ main{
     line-height: 2.88rem;
 }
 
+/* Keep text from breaking the edges */
+a, .contact-info{
+    overflow-wrap: break-word;
+}
+
 nav{
     background: lightskyblue;
 }
@@ -13,9 +18,15 @@ nav{
     color: white;
 }
 
+h1, .my-name, .title{
+   font-family: 'Lobster', cursive; 
+}
+
 h2{
+    font-family: 'Lobster', cursive;
+    color: white;
     margin-top: 1em;
-    background: lightsteelblue;
+    background: black;
 }
 
 /* make my photo completely rounded */
@@ -32,6 +43,8 @@ ul{
     position: sticky;
     top: 0;  
     font-size: 1.7em;
+    font-family: 'Lobster', cursive;
+
 
 }
 
@@ -47,12 +60,10 @@ article{
     
 }
 /* coding image background */
-
-
-
 span{
-    background: lightsteelblue;
-    color: black;    
+    background: black;
+    color: white;
+    border-style: groove; 
 }
 
 /* formating for all project images */
@@ -63,6 +74,24 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 80%;      
+}
+
+footer{
+    padding: 5%;
+}
+
+
+body {
+  min-height: 450px;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+}
+
+@keyframes ಠ_ಠ {
+  100% {
+    transform: rotateY(-40deg) rotateX(-43deg);
+  }
 }
 
 /* Remove nav side bar and shrink text on smaller devices */
